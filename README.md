@@ -130,3 +130,21 @@ Pull Requests são bem-vindos.
 ## 📄 Licença
 
 MIT
+
+## ⚠️ Download do modelo (obrigatório)
+
+Este pacote utiliza um modelo de Machine Learning que **não está
+incluído diretamente no repositório** devido ao tamanho do arquivo.
+
+Para utilizar corretamente:
+
+1.  Baixe o modelo através do link que está dentro do arquivo
+    `download_IADetector.txt`.
+2.  Após baixar, coloque o arquivo `AIDetector.mlmodel` dentro da pasta:
+
+```{=html}
+<!-- -->
+```
+    Resources/
+
+Sem esse arquivo o pacote não funcionará corretamente.
